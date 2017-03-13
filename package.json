@@ -1,0 +1,30 @@
+{
+  "name": "temp-mail",
+  "version": "2.1.0",
+  "description": "Node.js API wrapper for temp-mail.org",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xomyaq/tempmail.git"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb-base": "^5.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "node tests/*.js | tap-spec",
+    "lint": "eslint index.js \"tests/*.js\""
+  },
+  "author": {
+    "name": "Ilnur Khalilov",
+    "email": "ilnur.khalilov@gmail.com",
+    "url": "ilnurkhalilov.ru"
+  },
+  "license": "MIT"
+}
